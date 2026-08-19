@@ -1,0 +1,26 @@
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f1f;
+    height: 400px;
+}
+.item1 {
+    background-color: blue;
+}
+.item2 { 
+    align-self: flex-end;
+}
+
+.header {
+    display: flex;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #f1f1;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header h1 {
+    background-color: #f1f111;
+}
