@@ -1,4 +1,4 @@
-.flex-container {
+/* .flex-container {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -11,6 +11,8 @@
 .item2 { 
     align-self: flex-end;
 }
+*/
+
 
 .header {
     display: flex;
@@ -23,4 +25,21 @@
 
 .header h1 {
     background-color: #f1f111;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    /*
+    height: 400px; 
+    row-gap: 10px;
+    column-gap: 10px;
+    gap: 10px;
+    */
+    gap: 10px;
+}
+
+.item2 {
+    grid-column-start: 2;
+    grid-column-end: 4;
 }
